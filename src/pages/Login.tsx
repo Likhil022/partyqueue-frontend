@@ -2,7 +2,6 @@ import { useState } from "react";
 import tape_recorder from "../assets/tape_recorder.jpg";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import { Play, Pause } from "lucide-react";
 
 const Login = () => {
   const [email, setEmail] = useState("");
