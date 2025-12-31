@@ -10,9 +10,6 @@ const Login = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // 🎧 Spotify UI state
-  const [showSpotify, setShowSpotify] = useState(false);
-
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError("");
